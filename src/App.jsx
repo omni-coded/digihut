@@ -13,6 +13,7 @@ const Legal = lazy(() => import('./pages/Legal'));
 const Admin = lazy(() => import('./pages/Admin'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const MyShop = lazy(() => import('./pages/MyShop'));
+const DineTable = lazy(() => import('./pages/DineTable'));
 
 // Hash routes ("#/privacy") work on any static host without server rewrites.
 // Plain hashes ("#services") stay on the home page and scroll to that section.
@@ -37,6 +38,7 @@ const PAGES = {
   '/terms': () => <Legal kind="terms" />,
   '/admin': () => <Admin />,
   '/my-shop': () => <MyShop />,
+  '/dinetable': () => <DineTable />,
 };
 
 export default function App() {
