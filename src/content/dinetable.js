@@ -5,7 +5,7 @@
 export const DT_IMG = (name) => `/dinetable/${name}.jpg`;
 
 /** Pixel sizes, so the page doesn't jump while screenshots load. */
-export const DT_SIZE = {'g00-tablet':[1700,1007],'g01-welcome':[600,1216],'g02-home':[600,1216],'g03-menu':[600,1216],'g04-dish':[600,1216],'g05-cart':[600,1216],'g06-orders':[600,1216],'g07-help':[600,1216],'g08-play':[600,1216],'g09-rewards':[600,1216],'g10-bill':[600,1216],'g11-pay':[600,1216],'g12-paid':[600,1216],'g13-support':[600,1216],'g14-privacy':[600,1216],'k01-kitchen':[1700,658],'o-analytics':[1700,1062],'o-analytics2':[1700,1062],'o-brand':[1700,1062],'o-brand2':[1700,1062],'o-editor':[1700,1062],'o-layout':[1700,1062],'o-menu':[1700,1062],'o-offers':[1700,1062],'o01-lock':[1700,935],'s01-floor':[1700,1062],'s02-floor-queue':[1700,1062]};
+export const DT_SIZE = {'g00-tablet':[1700,1007],'g01-welcome':[600,1216],'g02-home':[600,1216],'g03-menu':[600,1216],'g04-dish':[600,1216],'g05-cart':[600,1216],'g06-orders':[600,1216],'g07-help':[600,1216],'g08-play':[600,1216],'g09-rewards':[600,1216],'g10-bill':[600,1216],'g11-pay':[600,1216],'g12-paid':[600,1216],'g13-support':[600,1216],'g14-privacy':[600,1216],'k01-kitchen':[1700,658],'o-analytics':[1700,1062],'o-analytics2':[1700,1062],'o-brand':[1700,1062],'o-brand2':[1700,1062],'o-editor':[1700,1062],'o-layout':[1700,1062],'o-menu':[1700,1062],'o-offers':[1700,1062],'o01-lock':[1396,1024],'s01-floor':[1700,1062],'s02-floor-queue':[1700,1062]};
 
 const en = {
   card: {
