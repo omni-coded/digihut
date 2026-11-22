@@ -3,6 +3,7 @@ import { useLang } from '../i18n/LanguageContext';
 import { SERVICES } from '../content/data';
 import { useUI } from '../ui/UIContext';
 import SectionHeading from '../components/SectionHeading';
+import DineTableCard from './DineTableCard';
 
 export default function Services() {
   const { t } = useLang();
@@ -40,6 +41,8 @@ export default function Services() {
             );
           })}
         </ul>
+
+        <DineTableCard />
       </div>
     </section>
   );
